@@ -174,7 +174,7 @@ $param = array(
 	'password' => 'password',
 	'message' => array(
 		array(
-            'send_viber' => '1',
+			'send_viber' => '1',
 			'send_sms' => '2',
 			'name_delivery' => 'НАЗВАНИЕ_РАССЫЛКИ',
 			'time_send' => 'ВРЕМЯ_ОТПРАВКИ',
