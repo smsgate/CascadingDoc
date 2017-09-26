@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
 
 ```php
 $param = array(
-    'login' => 'ЛОГИН',
+	'login' => 'ЛОГИН',
 	'password' => 'ПАРОЛЬ'
 );
 $param_json = json_encode($param);
@@ -170,10 +170,10 @@ https://имя_хоста/sendmessagejson.php
 **PHP-данные:**
 ```php
 $param = array(
-    'login' => 'login',
+	'login' => 'login',
 	'password' => 'password',
 	'message' => array(
-        array(
+		array(
             'send_viber' => '1',
 			'send_sms' => '2',
 			'name_delivery' => 'НАЗВАНИЕ_РАССЫЛКИ',
@@ -189,18 +189,18 @@ $param = array(
 				array('phone' => '79801234567', 'client_id_message' => '111'),
 				array('phone' => '79800000001', 'client_id_message' => '112')
 			)
-        ),
+		),
 		array(
-            'send_viber' => '1',
+			'send_viber' => '1',
 			'name_delivery' => 'НАЗВАНИЕ_РАССЫЛКИ_2',
 			'sender_viber' => 'ИМЯ_ОТПРАВИТЕЛЯ_ВАЙБЕР_2',
 			'text_viber' => 'ТЕКСТ_ВАЙБЕР_2',
 			'phones' => array(
 				array('phone' => '79800000002', 'client_id_message' => '113')
 			)
-        ),
+		),
 		array(
-            'name_delivery' => 'НАЗВАНИЕ_РАССЫЛКИ_3',
+			'name_delivery' => 'НАЗВАНИЕ_РАССЫЛКИ_3',
 			'sender_viber' => 'ИМЯ_ОТПРАВИТЕЛЯ_ВАЙБЕР_3',
 			'text_viber' => 'ТЕКСТ_ВАЙБЕР_3',
 			'phones' => array(
@@ -308,7 +308,7 @@ https://имя_хоста/sendmessagejson.php
 **PHP-данные:**
 ```php
 $param = array(
-    'login' => 'login',
+	'login' => 'login',
 	'password' => 'password',
 	'state' => array(
 		array('id_message' => '111'),
