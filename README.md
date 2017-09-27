@@ -342,7 +342,7 @@ array ('error' => 'текст ошибки')
 JSON:
 ```json
 {
-	"message":[
+	"state":[
 		{"id_message":"ID сообщения в системе ","time_change_state":"Время последней смены состояния","state":"Общий статус сообщения","state_sms":"Статус SMS","state_viber":"Статус VIBER сообщения","num_parts_sms":"Количество часте SMS сообщения","price_sms":"Цена SMS сообщение","price_viber":"Цена VIBER сообщение"},
 		{"id_message":"ID сообщения в системе","time_change_state":"Время последней смены состояния","state":"Общий статус сообщения","state_sms":"Статус SMS","state_viber":"Статус VIBER сообщения","num_parts_sms":"Количество часте SMS сообщения","price_sms":"Цена SMS сообщение","price_viber":"Цена VIBER сообщение"}
 	]
@@ -351,7 +351,7 @@ JSON:
 PHP (массив, полученный через php функцию json_decode):
 ```php
 Array(
-	[message] => Array(
+	[state] => Array(
 		[0] => Array ( [id_message] => ID сообщения в системе [time_change_state] => Время последней смены состояния [state] => Общий статус сообщения [state_sms] => Статус SMS [state_viber] => Статус VIBER сообщения [num_parts_sms] => Количество часте SMS сообщения [price_sms] => Цена SMS сообщение сообщения [price_viber] => Цена VIBER сообщение ),
 		[1] => Array ( [id_message] => ID сообщения в системе [time_change_state] => Время последней смены состояния [state] => Общий статус сообщения [state_sms] => Статус SMS [state_viber] => Статус VIBER сообщения [num_parts_sms] => Количество часте SMS сообщения [price_sms] => Цена SMS сообщение сообщения [price_viber] => Цена VIBER сообщение )
 	)
